@@ -1,7 +1,7 @@
 # DateTimePickerEx
 DateTimePickerEx is an extension of DatePicker and TimePicker for Android.
 
-![sample_anim](https://github.com/recruit-mtl/DateTimePickerEx/blob/master/DateTimePickerSampleCapture.png)
+![sample_screenshot](https://raw.githubusercontent.com/recruit-mtl/DateTimePickerEx/master/DateTimePickerSampleCapture.png)
 
 # Usage
 layout.xml
