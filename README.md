@@ -24,6 +24,8 @@ Java
     private EventDatePickerListener mEventDatePickerListener;
     
     final DatePickerEx datePicker = (DatePickerEx) this.findViewById(R.id.event_date_picker);
+    final TimePickerEx timePicker = (TimePickerEx) this.findViewById(R.id.event_time_picker);
+    
     datePicker.init(year, monthOfYear, dayOfMonth, new DatePicker.OnDateChangedListener() {
         @Override
         public void onDateChanged(DatePicker datePicker, int year, int month, int day) {
@@ -33,7 +35,6 @@ Java
         }
     });
         
-    final TimePickerEx timePicker = (TimePickerEx) this.findViewById(R.id.event_time_picker);
     timePicker.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
         @Override
         public void onTimeChanged(TimePicker timePicker, int hour, int minute) {
